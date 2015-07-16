@@ -24,7 +24,7 @@ import java.util.Arrays;
  *
  * @author <a href="szymon.bochniak@profitbricks.com">Szymon Bochniak</a>
  */
-public class Solution {
+public class SumAfterSingleSwap {
     public int solution(int[] A) {
         if (A.length == 1) return A[0];
         if (A.length == 2) {

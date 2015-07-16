@@ -16,20 +16,20 @@ import static java.util.Arrays.asList;
  * @author <a href="szymon.bochniak@profitbricks.com">Szymon Bochniak</a>
  */
 @RunWith(Parameterized.class)
-public class SolutionTest {
+public class SumAfterSingleSwapTest {
 
     int[] input;
     int result;
-    Solution solutionUT;
+    SumAfterSingleSwap solutionUT;
 
-    public SolutionTest(int[] input, int result) {
+    public SumAfterSingleSwapTest(int[] input, int result) {
         this.input = input;
         this.result = result;
     }
 
     @Before
     public void setUp() throws Exception {
-        solutionUT = new Solution();
+        solutionUT = new SumAfterSingleSwap();
     }
 
     @Parameterized.Parameters

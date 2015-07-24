@@ -32,7 +32,13 @@ public class Solution3Test {
     @Parameterized.Parameters
     public static Collection primeNumbers() {
         return asList(new Object[][]{
-                        {new int[]{1, 2, 3, 4, 4, 3, 2}, 7},
+                        {new int[]{1, 2, 3, 4, 4, 3, 5}, 6},
+                        {new int[]{1, 2, 3, 4, 4, 3, 2}, 6},
+                        {new int[]{1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 10, 7, 2, 1, 2}, 15},
+                        {new int[]{1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 10, 7, 2, 2, 1, 2}, 16},
+                        {new int[]{1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 10, 7, 8, 8}, 14},
+                        {new int[]{2, 2, 1, 2}, 3},
+                        {new int[]{2, 2, 3, 3, 4, 4, 5, 3, 2}, 8},
                 }
         );
     }
